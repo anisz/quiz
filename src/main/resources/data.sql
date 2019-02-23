@@ -1,0 +1,1 @@
+INSERT INTO Quiz (id, name, spicies, asked, answer) VALUES (default, 'NazwaTestowa', 'pokemon', false, null);

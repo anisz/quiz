@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS QUIZ 
+(
+id INTEGER not NULL AUTO_INCREMENT,  
+name VARCHAR(255),  
+origin VARCHAR(255),  
+drawSet BOOLEAN,  
+asked BOOLEAN,  
+answer VARCHAR(255),  
+PRIMARY KEY (id)
+);
